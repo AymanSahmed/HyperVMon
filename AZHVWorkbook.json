@@ -3,7 +3,7 @@
   "parameters": {
     "workbookDisplayName": {
       "type": "string",
-      "defaultValue": "TestWorkbook",
+      "defaultValue": "AzureHV",
       "metadata": {
         "description": "The friendly name for the workbook that is used in the Gallery or Saved List.  This name must be unique within a resource group."
       }
@@ -17,7 +17,7 @@
     },
     "workbookSourceId": {
       "type": "string",
-      "defaultValue": "/subscriptions/880df6bf-744e-47a6-a16c-96781602e3cd/resourceGroups/Azhci/providers/Microsoft.OperationalInsights/workspaces/azhcilogmon",
+      "defaultValue": "AzureHV_v1",
       "metadata": {
         "description": "The id of resource instance to which the workbook will be associated"
       }
